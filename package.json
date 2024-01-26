@@ -1,0 +1,28 @@
+{
+  "name": "quiz-platform",
+  "version": "1.0.0",
+  "description": "Created Quiz Platform using Node.js, mongo, Redis and Jwt Auth ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesamarthshetty/Quize-Platform.git"
+  },
+  "author": "Samarth Shetty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thesamarthshetty/Quize-Platform/issues"
+  },
+  "homepage": "https://github.com/thesamarthshetty/Quize-Platform#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.0",
+    "express": "^4.18.2",
+    "joi": "^17.12.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.0",
+    "redis": "^4.6.12"
+  }
+}
